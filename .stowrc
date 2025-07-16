@@ -2,4 +2,4 @@
 --dir=$HOME/dotfiles
 --ignore=.git
 --ignore=README.md
---dotfiles
+--ignore=.stowrc
