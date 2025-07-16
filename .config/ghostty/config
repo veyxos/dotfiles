@@ -43,3 +43,5 @@
 # resize-overlay-duration = 4s 200ms
 
 font-family = "Geist Mono NF"
+
+theme = catppuccin-macchiato.conf
