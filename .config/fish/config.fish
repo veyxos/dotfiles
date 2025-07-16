@@ -7,8 +7,6 @@ set fish_greeting
 # Aliases
 alias vim="nvim"
 alias vi="vim"
-alias ll="ls -lisah"
-alias la="ls -1A"
 
 # Functions
 function last_history_item
@@ -17,5 +15,12 @@ end
 
 # Abbreviations
 abbr -a !! --position anywhere --function last_history_item
+abbr -a ll ls -lisah
+abbr -a la ls -1A
+abbr --command git cm commit -m
+abbr --command git amend commit --amend --no-edit
+abbr --command git aa add .
+abbr --command git aA add -A
+abbr --command git pu push -u origin main
 
 starship init fish | source
